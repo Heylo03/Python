@@ -1,3 +1,0 @@
-26/9/2025
--Seguridad -> Documento hablando de CIDAN los objetivos de la seguridad y en cada palabra un ejemplo de ataque y defensa
-Objetivos seguridad = CIDAN
