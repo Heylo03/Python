@@ -17,4 +17,4 @@ costeTotal = round(panes*precioDescuento,2)
 totalDescontado = round(precioBarra*panes-costeTotal,2)
 totalSinDescuento = round(precioBarra*panes,2)
 
-print(f"Número de barras: {panes}\nCoste barra NO fresca:  {precioDescuento}€\nCoste barra fresca: {precioBarra}€\nCoste total: {costeTotal}€\nDescuento obtenido: {totalDescontado}€")
+print(f"Número de barras: {panes}\nCoste barra NO fresca:  {precioDescuento}€\nCoste barra fresca: {precioBarra}€\nCoste total con descuento: {costeTotal}€\nCoste total sin descuento: {totalSinDescuento}€\nDescuento obtenido: {totalDescontado}€")
