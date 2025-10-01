@@ -16,6 +16,4 @@ payasos = int(input("Dame el número de payasos: "))
 muneca = int(input("Dame el número de muñécas: "))
 
 pesoTotal = ((112*payasos)+(75*muneca))/1000
-print(payasos)
-print(muneca)
 print(f"El peso del paquete a sido de {pesoTotal} kg")
