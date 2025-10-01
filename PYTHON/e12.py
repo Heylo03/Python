@@ -9,7 +9,7 @@ hace por no ser fresca y el coste final total.
 '''
 descuento = 0.60
 precioBarra = 3.49
-precioDescuento = precioBarra-precioBarra*descuento
+precioDescuento = round(precioBarra-precioBarra*descuento,2)
 
 panes = int(input("Dame el número de barras de pan: \n"))
 
@@ -17,4 +17,4 @@ costeTotal = round(panes*precioDescuento,2)
 totalDescontado = round(precioBarra*panes-costeTotal,2)
 totalSinDescuento = round(precioBarra*panes,2)
 
-print(f"Número de barras: {panes}\nCoste total: {costeTotal}€\nDescuento obtenido: {totalDescontado}€")
+print(f"Número de barras: {panes}\nCoste barra NO fresca:  {precioDescuento}€\nCoste barra fresca: {precioBarra}€\nCoste total: {costeTotal}€\nDescuento obtenido: {totalDescontado}€")
