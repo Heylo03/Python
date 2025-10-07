@@ -8,4 +8,4 @@ introducir su nombre combinando mayúsculas y minúsculas como quiera.
 nombre = input("Dame tu nombre completo")
 print(nombre.upper(),"\n")
 print(nombre.lower(),"\n")
-
+print(nombre.title(),"\n")
