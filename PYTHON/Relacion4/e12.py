@@ -9,7 +9,6 @@ muestre por pantalla el número de veces que aparece la letra en la frase."
 letra = input("DAME UNA LETRA: \n").lower()
 frase.lower()
 c = 0
-#print(frase.find(letra))
 for i in range(0,len(frase)):
     if frase[i] == letra:
         c += 1

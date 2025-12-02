@@ -5,5 +5,5 @@ un triángulo rectángulo como el de más abajo, de altura el número introducid
 
 n = int(input("DAME UN NUMERO ENTERO: \n"))
 
-for i in range(0,n+1):
+for i in range(n+1,0,-1):
     print("*"*i)
