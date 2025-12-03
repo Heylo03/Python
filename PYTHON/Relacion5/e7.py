@@ -10,6 +10,6 @@ for a in range(ord('a'),ord('z')+1):
     abc.append(chr(a))
 print(abc)
 for i in range(0,len(abc)):
-    if(i % 3 == 0):
+    if((i+1) % 3 != 0):
         abc3.append(abc[i])
 print(abc3)
